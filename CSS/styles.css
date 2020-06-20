@@ -31,3 +31,22 @@
 .h500 {
     height: 500px;
 }
+
+.lapis {
+    background-color: #255C99
+}
+
+.textlapis {
+    font: #255C99
+}
+
+.photo {
+    width: 80%;
+    border-radius: 3%;
+}
+
+.footer {
+    width: 100%;
+    height: 65px;
+}
+

@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
 
 </head>
   <body>
@@ -18,13 +20,13 @@
         <div class="header bg-warning position-relative">
 
             <div class="d-flex flex-column h-100 w-100 justify-content-center align-items-center text-white position-absolute top z20">
-                <div class="display-1 text-warning"> Huynh Restaurant</div>
-                <div class="display-5">Authentic Vietnamese Cuisine</div>
+                <div class="display-1 text-primary"> Houston Underground</div>
+                <div class="display-4">Saxophone Quartet Competition</div>
                 
-                <div class="d-none d-md-block">
+                <div class="d-none d-md-block mt-3">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
-                        Launch demo modal
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Register Now!
                     </button>
                 </div>  
             </div>
@@ -34,14 +36,16 @@
             </div>
             
             <div class="embed-responsive embed-responsive-16by9 p-0 position-absolute z10 top">
-                <iframe width="100%" src="https://www.youtube.com/embed/hz70ucYZyy4?&autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" src="https://www.youtube.com/embed/tYeuD5w5ns8?&autoplay=1&loop+1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-
             
         </div><!-- End of Header -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-header" aria-hidden="true"></i>
+              <!-- Houston Underground -->
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,9 +56,15 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">Rules</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Apply</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Media</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
                   </a>
@@ -67,18 +77,38 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+                </li> -->
               </ul>
-              <form class="form-inline my-2 my-lg-0">
+              <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+              </form> -->
             </div>
           </nav><!-- End of Navigation -->
 
-        <div class="row">
-            <div class="col h500">Column 1</div>
-            <div class="col h500">Column 2</div>
+        <div class="row bg-secondary">
+            <div class="col h500 d-flex align-items-center justify-content-center">
+              <img src="images/girlquartet.jpg" class="photo" alt="">
+            </div>
+            <div class="col h500 d-flex align-items-center justify-content-center">
+              <div class="w-75 text-justify">
+              Houston Underground is the largest - and most awesome - amateur saxophone competition for high school and junior high students in the country. Since 2008, Houston Underground has been a platform for student musicians to refine their art, broadcast their skills, collaborate with other players, and explore new repertoire, all in an exciting and fun environment. Supported by top saxophone companies and frequented by some of the best professional players in the country, we strive to be a defining and supportive event in the development of hundreds of young musicians.
+            </div>
+            </div>
+        </div>
+
+        <div class="row bg-white">
+            <div class="col h500 d-flex align-items-center justify-content-center">
+              <div class="w-75 text-justify">Houston Underground is the country's largest chamber music contest for amateur saxophonists. Begun with the belief that chamber music is the best possible medium for young musicians to develop, Houston Underground strives every year to provide players with the opportunity to showcase their talents, develop their technique, take ownership in their playing, discover the rewards of musical discipline, meet and interact with other players, and compete for cash prizes in a contest setting. Competitors have gone on to pursue a variety of fields and disciplines, many of which include musical studies at some of the nation's top music schools. </div>
+            </div>
+            <div class="col h500 d-flex align-items-center justify-content-center">
+              <img src="images/performance.jpg" class="photo" alt="">
+            </div>
+        </div><!-- End of Content -->
+
+        <div class="row d-flex bg-warning footer">
+          <div class="column"></div>
+          Here's some footer text
         </div>
 
     </div>
