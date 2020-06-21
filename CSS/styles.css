@@ -50,3 +50,11 @@
     height: 65px;
 }
 
+.lift {
+    position: relative;
+    top: 10px;
+}
+
+.round {
+    border-radius: 3%
+}
