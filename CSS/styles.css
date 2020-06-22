@@ -1,5 +1,56 @@
-#D4D1D1 - light gray
-#E62652 - 
+/* #760A2D - red
+#1D3557 - deep blue
+#457B9D - light blue
+#C4A59F - dark tan
+#F1FAEE - light tan  */
+
+.textRed {
+    color: #760A2D
+}
+
+.bgRed {
+    background-color: #760A2D;
+}
+
+.textDeepBlue {
+    color: #1D3557
+}
+
+.bgDeepBlue {
+    background-color: #1D3557;
+}
+
+.textLightBlue {
+    color: #457B9D
+}
+
+.bgLightBlue {
+    background-color: #457B9D;
+}
+
+.textDarkTan {
+    color: #C4A59F
+}
+
+.bgDarkTan {
+    background-color: #C4A59F;
+}
+
+.textLight {
+    color: #F1FAEE
+}
+
+.bgLight {
+    background-color: #F1FAEE;
+}
+
+.textWhite {
+    color: rgb(255, 255, 255)
+}
+
+.bgWhite {
+    background-color: rgb(255, 255, 255);
+}
 
 
 * {
@@ -110,4 +161,16 @@
 
 .nooverflow {
     overflow: hidden;
+}
+
+.btn:hover {
+    background-color: #C4A59F;
+}
+
+.nav-link:hover {
+    background-color: #F1FAEE;
+}
+
+a {
+    color: #760A2D
 }
