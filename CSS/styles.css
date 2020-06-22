@@ -1,3 +1,7 @@
+#D4D1D1 - light gray
+#E62652 - 
+
+
 * {
     margin: 0px;
 }
@@ -31,17 +35,37 @@
     height: 500px;
 }
 
-.lapis {
-    background-color: #255C99
+
+.photo1 {
+    height: 600px;
+    position: absolute;
+    left: -80px;
 }
 
-.textlapis {
-    font: #255C99
+.photo2 {
+    height: 600px;
+    position: absolute;
+    left: -40px;
 }
 
-.photo {
-    width: 80%;
-    border-radius: 3%;
+.photo3 {
+    width: 800px;
+    position: absolute;
+    top: -140px;
+}
+
+.photo4 {
+    height: 600px;
+    position: absolute;
+    left: -110px;
+    top: -100px;
+}
+
+.textbox {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer {
