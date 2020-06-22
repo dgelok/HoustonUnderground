@@ -60,3 +60,19 @@
 .bglightgray {
     background-color: rgb(216, 216, 216);
 }
+
+.centerme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bgimage {
+    background-image: url(../images/bwhorns.jpg);
+    width: 100%;
+
+}
+
+.footer {
+}
