@@ -14,7 +14,7 @@
   <body>
       <div class="container-fluid p-0">
 
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bgLightBlue">
             <a class="navbar-brand" href="#">
               <i class="fa fa-header" aria-hidden="true"></i>
               <!-- Houston Underground -->
@@ -38,7 +38,7 @@
             </div>
         </nav><!-- End of Navigation -->
 
-        <div class="jumbotron jumbotron-fluid mb-0 bglightgray">
+        <div class="jumbotron jumbotron-fluid mb-0 bgDarkTan">
             <div class="container">
               <h1 class="display-4">Photos and Videos</h1>
               <p class="lead">from our yearly competitions</p>
@@ -47,11 +47,31 @@
 
         <div class="row bgimage m-0 justify-content-center">
           <div class="col-7 bg-white tall p-4">
-            Replace this with a slideshow or two.
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/winners.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/performance.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/girlquartet.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
 
-        <div class="row bg-primary m-0 fixed-bottom">
+        <div class="row bgLightBlue m-0 fixed-bottom">
           <div class="col align-items-center">
             <div class="d-flex justify-content-center"><i class="fa fa-copyright mr-2" aria-hidden="true"></i>
                Houston Underground Competition 2020</div>

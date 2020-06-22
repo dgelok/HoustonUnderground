@@ -174,3 +174,12 @@
 a {
     color: #760A2D
 }
+
+@media (max-width: 992px) {
+    .first {
+        order: 1
+    }
+    .second {
+        order: 2
+    }
+}
